@@ -1,0 +1,37 @@
+body{
+	background-color: #5A00FF;
+	margin:0;
+	text-align: center;
+}
+.cntaynr{
+	width: 85%;
+	margin:0 auto;
+	background-color: #D1EA00;
+	padding-bottom: 110px;
+}
+img{
+	/*width: 33vw;*/
+	height: 40vh;
+
+}
+h1{
+	font-family: 'Playfair Display', serif;
+	color: #5A00FF;
+	margin: 0px 0px;
+	font-size: 40px;
+	padding: 35px 0px;
+}
+.flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+a{
+	height:40vh;
+	border:7px solid beige;
+	transition: all 1s ease;
+}
+a:hover{
+	transform: scale(1.2);
+}
