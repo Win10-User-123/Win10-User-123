@@ -1,0 +1,27 @@
+h3{
+	text-decoration: blink;
+}
+.puzzles{
+	background-color: beige;
+}
+body{
+	background-color: red;
+}
+.fin{
+	display: block;
+	text-decoration: none;/*deletes the underline of text or links/URLs*/
+	transition: all 0.5s ease;
+	background: #00F6FF;
+	width: 100px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 40px;
+	border-color: #EF1313;
+	border:5px solid;
+}
+.fin:hover{
+	/*pseudoclass changes the style of an element when the cursor hovers on top of the element*/
+	color: #B2FA16;
+	text-decoration: underline;
+	background: #495DA9;
+}
